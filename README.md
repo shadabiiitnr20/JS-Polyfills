@@ -1,48 +1,60 @@
-# JavaScript Polyfills & Interview Questions
+# JavaScript Polyfills & Implementation Questions
 
-## 🔥 JavaScript Polyfills (Must-Know Implementations)
+## JavaScript Polyfills & Asynchronous Programming
 
-1. Implement the functionality behavior of `Promise.all`, `Promise.race`, `Promise.finally`, `Promise.any`, and `Promise.allSettled`. (Polyfill)
-2. Implement polyfills for `call`, `apply`, and `bind` methods from scratch.
-3. Implement a custom polyfill version of `Object.assign`.
-4. Implement `SetTimeout` / `SetInterval` polyfill.
-5. Write a custom polyfill for the **`typeof`** operator that returns the correct type of a JavaScript value.
-6. Implement the polyfills for `map`, `filter`, `reduce`, and `forEach` array methods.
-7. Implement a **custom JavaScript Promise** from scratch.
-8. Implement a debounce function that comes with a cancel method to cancel delayed invocations. \`Debounce Polyfill\`
-9. Implement a throttle function that comes with a cancel method to cancel delayed invocations. \`Throttle Polyfill\`
+1. Implement polyfills for Promise.all, Promise.race, Promise.finally, Promise.any, and Promise.allSettled.
+2. Implement a custom JavaScript Promise from scratch.
+3. Implement a debounce function with a cancel method.
+4. Implement a throttle function with a cancel method.
+5. Implement throttling of promises, limiting concurrent API requests.
+6. Implement a function to execute N async tasks in series, parallel, or race mode.
+7. Implement a promisify function that converts a callback-based function into a promise-based one.
 
-## 💡 JavaScript Implementation-Based Questions
+## Function Prototypes & Execution Context
 
-10. Implement a function that serializes a JavaScript value into a JSON string.
-11. Implement a function that deserializes a JSON string into a JavaScript value.
-12. Implement a function that performs a deep copy of a value, but also handles circular references.
-13. Implement a function that determines if two values are deeply equal.
-14. Implement a function that returns a memoized version of a function that accepts a single argument.
-15. Implement a class that can subscribe to and emit events that trigger attached callback functions.
-16. Implement throttling of promises which throttles API requests to a max limit.
-17. Implement a function that recursively flattens an array into a single level deep.
-18. Implement a function to execute **N async tasks in series**.
-19. Implement a function to execute **N async tasks in parallel**.
-20. Implement a function to execute **N async tasks in race**.
-21. Implement a `pipe` function which chains N number of functions.
-22. Implement **negative indexing in Array** using Proxies.
-23. Implement Lodash `_.get` method which retrieves values from an object path.
-24. Implement your custom version of the `call` method which sets the `this` context.
-25. Implement a **custom Virtual DOM I** that serializes the data into valid JavaScript objects.
-26. Implement a **custom Virtual DOM II** that deserializes the data.
-27. Implement a \*\*custom polyfill function \*\***`memoize`** from the Lodash library.
-28. Implement memoizing or caching identical API requests.
-29. Implement a **custom String Tokenizer**.
-30. Implement a custom function `_.chunk()` which chunks arrays (similar to Lodash).
-31. Implement a `promisify` function that allows the original function to override the return value.
-32. Implement a **curried function** with placeholder support.
-33. Implement a **deep flatten function for arrays & objects**.
+8. Implement polyfills for call, apply, and bind.
+9. Implement a custom version of call that correctly sets this.
+10. Implement a curried function with placeholder support.
+11. Implement a pipe function that chains multiple functions together.
+
+## Custom Array & Object Methods
+
+12. Implement polyfills for map, filter, reduce, and forEach.
+13. Implement a custom polyfill for Object.assign.
+14. Implement Lodash’s \_.get method, retrieving values from an object path.
+15. Implement Lodash’s \_.chunk method, splitting an array into chunks.
+16. Implement negative array indexing using JavaScript Proxy.
+
+## Data Structures & Algorithms in JavaScript
+
+17. Implement a function that recursively flattens an array.
+18. Implement a deep flatten function for arrays and objects.
+19. Implement a function that performs a deep copy and correctly handles circular references.
+20. Implement a function that determines if two values are deeply equal.
+21. Implement a custom string tokenizer.
+
+## Memoization & Caching
+
+22. Implement a memoized version of a function (single argument).
+23. Implement a custom memoize polyfill from Lodash.
+24. Implement memoizing or caching of identical API requests.
+
+## JavaScript Event Handling & Custom Implementations
+
+25. Implement a custom EventEmitter (subscribe and emit events).
+26. Implement a polyfill for setTimeout and setInterval.
+
+## Virtual DOM & Custom JavaScript Runtime Features
+
+27. Implement a custom Virtual DOM I that serializes the data into JavaScript objects.
+28. Implement a custom Virtual DOM II that deserializes JavaScript objects back into the DOM.
+
+## JavaScript Fundamentals & Utility Implementations
+
+29. Implement a polyfill for the typeof operator, ensuring correct type detection.
+30. Implement a function that serializes a JavaScript value into a JSON string.
+31. Implement a function that deserializes a JSON string into a JavaScript value.
 
 ---
 
-## 🚀 Getting Started
-
-If you're preparing for JavaScript interviews or improving your fundamental JS knowledge, implementing these polyfills and functions from scratch will help solidify your understanding.
-
-Feel free to contribute and expand this list! 🎯
+This list serves as a comprehensive guide to mastering JavaScript through practical implementations. Working on these will solidify your understanding of JavaScript concepts, making you a stronger developer.
