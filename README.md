@@ -57,7 +57,8 @@
 
 ## React Hooks
 
-32. Explain & Implement useLayoutEffect hook.
+32. Explain & Implement useState and useEffect hook. (Polyfill)
+33. Explain & Implement useLayoutEffect hook.
 
 ---
 
