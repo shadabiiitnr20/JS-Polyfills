@@ -56,8 +56,8 @@
 
 ## React Hooks
 
-31. [ ] Explain & Implement useState and useEffect hook. (Polyfill)
-32. [ ] Explain & Implement useLayoutEffect hook.
+31. [ ] Explain & Implement useState, useEffect hook and useLayoutEffect. (Custom Implementation)
+32. [ ] Implement a custom hook.
 
 ## Custom Javascript Promise
 
