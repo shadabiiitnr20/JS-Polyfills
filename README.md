@@ -55,6 +55,10 @@
 30. Implement a function that serializes a JavaScript value into a JSON string.
 31. Implement a function that deserializes a JSON string into a JavaScript value.
 
+## React Hooks
+
+32. Explain & Implement useLayoutEffect hook.
+
 ---
 
 This list serves as a comprehensive guide to mastering JavaScript through practical implementations. Working on these will solidify your understanding of JavaScript concepts, making you a stronger developer.
