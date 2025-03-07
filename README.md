@@ -61,6 +61,6 @@
 
 ## Custom Javascript Promise
 
-## [ ] Implement a custom JavaScript Promise from scratch also implement Prmoise.finally
+[ ] Implement a custom JavaScript Promise from scratch also implement Prmoise.finally
 
 This list serves as a comprehensive guide to mastering JavaScript through practical implementations. Working on these will solidify your understanding of JavaScript concepts, making you a stronger developer.
