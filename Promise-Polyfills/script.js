@@ -130,3 +130,49 @@ Promise.myAllSettled = function (promises) {
 //   .catch((err) => console.log('Rejected:', err));
 
 // Promise.myAll([]).then(console.log); // Output: []
+
+//Extra Question ->
+/**
+ * Create a function that takes an array of promises and executes them sequentially,
+ * returning a single promise that resolves when all have been completed.
+ */
+
+async function myPromises(promises) {
+  let results = [];
+  for (let promise of promises) {
+    results.push(await promise());
+  }
+  return results;
+}
+
+const p1 = () =>
+  new Promise((res, rej) => setTimeout(() => res('test-1'), 1000));
+const p2 = () =>
+  new Promise((res, rej) => setTimeout(() => res('test-2'), 2000));
+const p3 = () =>
+  new Promise((res, rej) => setTimeout(() => res('test-3s'), 3000));
+
+myPromises([p1, p2, p3]).then((val) => console.log(val));
+
+const task1 = async () => {
+  /** implementation */
+  console.log('task1 done');
+};
+
+const task2 = async () => {
+  /** implementation */
+  console.log('task2 done');
+};
+
+const task3 = async () => {
+  /** implementation */
+  console.log('task3 done');
+};
+
+const callTasks = () => {
+  task1();
+  task2();
+  task3();
+};
+
+callTasks();
